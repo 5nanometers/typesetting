@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-size: 1rem; 
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+
+h1, h2 {
+  font-family: "DM Serif Text", serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+/* Targets bullet points */
+section ul li {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  list-style-type: square;
+  line-height: 150%;
+}
+
+header {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* .first-paragraph {
+  text-indent: 1.25rem;
+} */
+
+h2 + p {
+  text-indent: 1.25rem;
+}
+
+a:link {
+  color: #a66;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(108, 102, 170);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(167, 118, 118);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(146, 68, 68);
+  text-decoration: none;
+}
+ 
+a:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px;
+}
+
+/* Targets hyperlinks only in the first pargraph  */
+section p a::after {
+  content: "";
+  display: inline-block;
+  background-image: url('public/external-link-52.png');
+  width: 14px;
+  height: 14px;
+  background-size: contain;
+}
+
+/* Targets numbered list */
+section ol, section li {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+aside {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+
+aside li {
+  list-style-type: square;
+  padding-left: 5px;
+  line-height: 150%;
+}
+
+nav li {
+  border: 1px solid #a66 ;
+  border-radius: 4px;
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+
+nav li a:link {
+  text-decoration: none;
+}
