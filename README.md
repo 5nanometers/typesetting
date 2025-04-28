@@ -16,4 +16,4 @@ This project styles a community school page using CSS.
 
 The following screenshot shows an example of what the finished design looks like.
 
-![index.html](/public/sample.png);
+![index.html](/public/sample.png)
