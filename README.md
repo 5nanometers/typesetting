@@ -1,14 +1,4 @@
-# Typesetting a community school page 
-
-## Example
-
-The following screenshot shows an example of what the finished design could look like:
-
-<img src="/public/sample.png>
-
-
 ## About The Project
-
 This project styles a community school page using CSS.
 
 ## Built With
@@ -21,3 +11,9 @@ This project styles a community school page using CSS.
     cd typesetting 
 
 2. Open index.html in your web browser.
+
+## Sample Image
+
+The following screenshot shows an example of what the finished design looks like.
+
+![index.html](/public/sample.png);
